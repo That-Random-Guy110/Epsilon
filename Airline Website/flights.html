@@ -5,7 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Epsilon Airlines</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="./css/flights.css">
+        <script src="store.js" async></script>
     </head>
     <body>
         <div id="page-container">
@@ -25,10 +27,40 @@
                         </nav>
                     </div>
                 </header>
-                <!--Plan For Website-->
-                <!--3 or more sections flight map, orign, pricing-->
-                <!--Yo, I need to download this so I can work when you aren't then share the edits during school. Then we can work on it seperately-->
-                <section id="flight_book">
+                <section class="container content-section">
+                    <div class="shop-items">
+                        <div class="shop-item">
+                            <span class="shop-item-title">Tickets</span>
+                            <img class="shop-item-image" src="img/tickets.jpg">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$19.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="shop-item">
+                            <span class="shop-item-title">Shirt</span>
+                            <img class="shop-item-image" src="img/shirt.jpg">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$19.99</span>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container content-section">
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">$0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
                 </section>
             <footer id="footer">
                 <!--Footer stuff-->
