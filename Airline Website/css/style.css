@@ -1,0 +1,107 @@
+body{
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.special_container{
+    color:#ffffff;
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.container{
+    color:#ffffff;
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+html{
+    background-color: #25274D;
+}
+
+header{
+    text-align:center;
+    background:#25274D;
+    color:#AAABB8;
+    padding-top:10px;
+    min-height:70px;
+    border-bottom:#ffffff 3px solid;
+}
+img.wrap {
+    float:left;
+    border: 10px;
+    border-left: 20px;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:15px;
+}
+
+/*Everyting above works*/
+
+
+#homepage_anchor{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+header li{
+    display:inline;
+    margin-left:3.2%;
+    padding: 0 45px 5px 45px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+    display:inline;
+}
+
+header nav{
+    margin-top:0px;
+}
+
+/*Everything below works*/
+
+header .highlight, header .current a{
+    color:#26648A;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+/* Footer Settings. DO NOT TOUCH */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 6.5rem;    /* Footer height */
+}
+  
+#footer {
+    position: absolute;
+    background: #600001;
+    text-align:center;
+    color: white;
+    border-top:#ffffff 3px solid;
+    padding: 12px 7.5px 12px 12px;
+    bottom: 0;
+    width: 98.40%;
+    height: 2.5rem;            /* Footer height */
+}
+/*padding: 12px 7.5px 12px 12px; */
+/*https://visme.co/blog/website-color-schemes/
+https://www.schemecolor.com/black-gray-with-reds.php*/
